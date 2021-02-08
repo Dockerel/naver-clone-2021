@@ -1,3 +1,192 @@
-.status-bar {
+.search-body {
+  background-color: #f7f7f9;
+}
+
+.search__1 {
   display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  margin: 30px 20px;
+  opacity: 0.8;
+}
+
+.search__1 span {
+  font-size: 17px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.fa-gamepad {
+  opacity: 1;
+  color: #97a0a7;
+}
+
+.search__1__kr {
+  opacity: 1;
+  color: #97a0a7;
+}
+
+.search__1__kr span {
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+.search__2 img {
+  height: 70px;
+  width: 70px;
+}
+
+.search__2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 0px;
+}
+
+.search__3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.search__3 input {
+  background-color: #eaeef1;
+  border-style: none;
+  width: 94vw;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.fa-search {
+  opacity: 0.3;
+  position: absolute;
+  top: 17px;
+  right: 35px;
+}
+
+.search__3 input::placeholder {
+  padding-left: 15px;
+  font-size: 15px;
+  color: #97a0a7;
+}
+
+.search__4 {
+  background-color: #ffffff;
+  border: solid 1px rgb(241, 241, 241);
+  width: 415px;
+  margin: 30px 15px;
+  margin-right: 0px;
+  padding: 27px;
+  border-radius: 10px;
+}
+
+.search__4__profile {
+  display: flex;
+  position: relative;
+}
+
+.search__4__profile__mark img {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+}
+
+.search__4__badge {
+  width: 25px;
+  height: 17px;
+  position: absolute;
+  color: white;
+  background-color: #1e2021;
+  border-radius: 15px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  top: 48px;
+  left: 38px;
+}
+
+.search__4__profile__name {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.search__4__profile__name span:first-child {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.search__4__profile__name__rank {
+  padding-top: 3px;
+  opacity: 0.6;
+}
+
+.fa-times-circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  opacity: 0.6;
+  top: -11px;
+  right: -3px;
+}
+
+.search__4__champion span,
+.search__4__champions,
+.search__4__champion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search__4__champion img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 12px;
+  padding-top: 2px;
+}
+
+.search__4__champion__span {
+  padding-left: 7px;
+  margin-top: 18px;
+}
+
+.search__4__champion__span__percent {
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.search__4__champion__span__kda {
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.search__4__champion {
+  padding-right: 50px;
+}
+
+.search__5 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.search__5 input {
+  background-color: #5582e8;
+  border: none;
+  width: 472px;
+  height: 55px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.fa-angle-right {
+  position: absolute;
+  color: white;
+  top: 19px;
+  left: 307px;
 }

@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search</title>
   </head>
-  <body>
+  <body class="search-body">
     <div class="status-bar">
-      <div class="status-bar__1">
+      <div class="status-bar__column">
         <span>10:22</span>
       </div>
-      <div class="status-bar__2">
-        <i class="fas fa-signal"></i>
-        <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
+      <div class="status-bar__column">
+        <i class="fas fa-signal fa-sm"></i>
+        <i class="fas fa-wifi fa-sm"></i>
+        <i class="fas fa-battery-full fa-lg"></i>
       </div>
     </div>
     <div class="search">
       <div class="search__1">
-        <i class="fas fa-gamepad"></i>
+        <i class="fas fa-gamepad fa-lg"></i>
         <span>리그 오브 레전드</span>
-        <div>
-          <span>kr</span>
+        <div class="search__1__kr">
+          <span>KR</span>
           <i class="fas fa-caret-down"></i>
         </div>
       </div>
@@ -33,7 +33,7 @@
       </div>
       <div class="search__3">
         <input type="search" placeholder="소환사 검색" />
-        <i class="fas fa-search"></i>
+        <i class="fas fa-search fa-lg"></i>
       </div>
       <div class="search__4">
         <div class="search__4__profile">
@@ -41,13 +41,14 @@
             <img
               src="https://opgg-com-image.akamaized.net/attach/images/20190427150046.414963.jpeg"
             />
-            <span>20</span>
+            <div class="search__4__badge">20</div>
           </div>
           <div class="search__4__profile__name">
             <span>도등어</span>
-            <div>
+            <div class="search__4__profile__name__rank">
               <i class="fab fa-battle-net"></i>
               <span>Unranked</span>
+              <i class="far fa-times-circle fa-lg"></i>
             </div>
           </div>
         </div>
@@ -62,18 +63,28 @@
             </div>
           </div>
           <div class="search__4__champion">
-            <span class="search__4__champion__span__percent">0%</span>
-            <span class="search__4__champion__span__kda">2.85:1</span>
+            <img
+              src="https://opgg-static.akamaized.net/images/lol/champion/Maokai.png?image=c_scale,q_auto,w_140&v=1612317615"
+            />
+            <div class="search__4__champion__span">
+              <span class="search__4__champion__span__percent">0%</span>
+              <span class="search__4__champion__span__kda">2.85:1</span>
+            </div>
           </div>
           <div class="search__4__champion">
-            <span class="search__4__champion__span__percent">33%</span>
-            <span class="search__4__champion__span__kda">1.06:1</span>
+            <img
+              src="https://opgg-static.akamaized.net/images/lol/champion/Mordekaiser.png?image=c_scale,q_auto,w_140&v=1612317615"
+            />
+            <div class="search__4__champion__span">
+              <span class="search__4__champion__span__percent">0%</span>
+              <span class="search__4__champion__span__kda">1.06:1</span>
+            </div>
           </div>
         </div>
       </div>
       <div class="search__5">
-        <input type="submit" value="챔피언 성적표 보기" />
-        <i class="fas fa-angle-right"></i>
+        <input type="submit" value="챔피언 성적표 보기     " />
+        <i class="fas fa-angle-right fa-lg"></i>
       </div>
     </div>
     <script
