@@ -73,12 +73,14 @@
 
 .search__4 {
   background-color: #ffffff;
-  border: solid 1px rgb(241, 241, 241);
+  border: solid 1px rgb(233, 233, 233);
   width: 415px;
-  margin: 30px 15px;
+  margin: 10px 15px;
   margin-right: 0px;
   padding: 27px;
   border-radius: 10px;
+  justify-content: center;
+  align-content: center;
 }
 
 .search__4__profile {
@@ -189,4 +191,74 @@
   color: white;
   top: 19px;
   left: 307px;
+}
+
+.bookmark__span {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 15px 15px;
+  margin-top: 17px;
+}
+
+.bookmark__user1 {
+  background-color: white;
+  border: solid 1px rgb(233, 233, 233);
+  width: 40vw;
+  height: 130px;
+  border-radius: 10px;
+  margin-left: 16px;
+  padding-right: 0px;
+  position: relative;
+}
+
+.bookmark__user1 img {
+  width: 42px;
+  height: 42px;
+  border-radius: 21px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 15px;
+}
+
+.fa-star {
+  position: absolute;
+  top: 0px;
+}
+
+.bookmark__user1__badge {
+  position: absolute;
+  width: 28px;
+  height: 17px;
+  color: white;
+  background-color: #1e2021;
+  border-radius: 15px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  left: 85px;
+  top: 47px;
+}
+
+.bookmark__user1__name {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.bookmark__user1__rank {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.bookmark__user1__rank span {
+  font-size: 13px;
+}
+
+.fa-star {
+  color: #5582e8;
+  right: 8px;
+  top: 10px;
 }
