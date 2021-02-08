@@ -262,3 +262,41 @@
   right: 8px;
   top: 10px;
 }
+
+#splash-screen {
+  background-color: #5483e8;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+}
+
+.main__span {
+  color: white;
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.main__span {
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 680px;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  animation: hideSplashScreen 0.6s ease-in-out forwards;
+  animation-delay: 0.8s;
+}
