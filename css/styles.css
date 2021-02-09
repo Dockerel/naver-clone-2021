@@ -1,9 +1,9 @@
-/* screens */
-@import "screens/main.css";
-@import "screens/search.css";
-
 /* components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+
+/* screens */
+@import "screens/search.css";
+@import "screens/community.css";
 
 @import "reset.css";

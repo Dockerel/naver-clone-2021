@@ -305,7 +305,6 @@
   animation-delay: 0.4s;
 }
 
-.nav__link:first-child > .fa-search,
-nav-bar__component__span > span {
+.nav__link__search > i {
   color: #5682e8;
 }

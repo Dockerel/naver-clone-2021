@@ -1,0 +1,143 @@
+.community-bar__1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.community-bar__1 > span {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 18px;
+}
+
+.community-bar__1__1 i {
+  padding-right: 18px;
+}
+
+.community-bar__1__1 i:first-child {
+  opacity: 0.3;
+}
+
+.community-bar__1__1 i:last-child {
+  color: #45cfa7;
+}
+
+.community-bar__devide-bar {
+  display: flex;
+  margin: 25px 0px;
+}
+
+.community-bar__devide-bar__item:first-child {
+  padding-left: 18px;
+  color: #45cfa7;
+}
+
+.community-bar__devide-bar__item:nth-child(2),
+.community-bar__devide-bar__item:nth-child(3),
+.community-bar__devide-bar__item:last-child {
+  padding-left: 30px;
+  opacity: 0.3;
+}
+
+.nav__link__community > i {
+  color: #5682e8;
+}
+
+.blank {
+  color: #eaedf0;
+  background-color: #eaedf0;
+  font-size: 1px;
+  border-top: solid 1px rgb(233, 233, 233);
+  border-bottom: solid 1px rgb(233, 233, 233);
+}
+
+.community-bar__devide-bar__item span {
+  padding-left: 2px;
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: solid 1px rgb(233, 233, 233);
+  position: relative;
+}
+
+.post__info__user img {
+  width: 10px;
+  height: 10px;
+}
+
+.post__photo img {
+  width: 65px;
+  height: 65px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.post__rank > span {
+  position: absolute;
+  opacity: 0.4;
+  top: 43px;
+  left: 17px;
+}
+
+.post__rank > i {
+  margin: 10px;
+  padding: 10px 15px;
+  opacity: 0.3;
+}
+
+.post__info {
+  margin-top: 20px;
+}
+
+.post__photo {
+  margin-left: 163px;
+}
+
+.post__info__title {
+  padding-bottom: 6px;
+}
+
+.post__info__title span:last-child {
+  padding-left: 3px;
+  color: #45cfa7;
+}
+
+.post__info__user span {
+  opacity: 0.4;
+  padding-right: 8px;
+}
+
+.post__info__user span:last-child {
+  position: absolute;
+  top: 45px;
+  left: 243px;
+}
+
+.simple-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafc;
+  border-top: solid 1px rgb(184, 180, 180);
+  opacity: 0.4;
+}
+
+.simple-nav-bar i {
+  padding: 12px 0px;
+}
+
+.simple-nav-bar i:first-child {
+  padding-left: 35px;
+}
+
+.simple-nav-bar i:last-child {
+  padding-right: 40px;
+}
+
+.simple-nav-bar {
+  position: fixed;
+  bottom: 76px;
+  width: 100%;
+}
