@@ -31,22 +31,10 @@
   opacity: 0.5;
 }
 
-.nav-bar__component__icon:first-child,
-.nav-bar__component__span span:first-child {
-  color: #0d358d;
+.nav-bar__component__span:last-child {
+  margin-right: 5px;
 }
 
-.nav-bar {
-  position: relative;
-}
-
-.bottom-bar {
-  color: #f7f7f9;
-  position: absolute;
-  background-color: black;
-  width: 170px;
-  height: 5px;
-  border-radius: 50px;
-  top: 830px;
-  left: 160px;
+.nav__link i {
+  color: black;
 }

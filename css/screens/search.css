@@ -211,7 +211,12 @@
   position: relative;
 }
 
-.bookmark__user1 img {
+.fa-star {
+  position: absolute;
+  top: 0px;
+}
+
+.bookmark__user1__img img {
   width: 42px;
   height: 42px;
   border-radius: 21px;
@@ -220,9 +225,8 @@
   margin-top: 18px;
 }
 
-.fa-star {
-  position: absolute;
-  top: 0px;
+.bookmark__user1__img {
+  position: relative;
 }
 
 .bookmark__user1__badge {
@@ -238,7 +242,7 @@
   align-items: center;
   font-size: 13px;
   left: 85px;
-  top: 47px;
+  top: 33px;
 }
 
 .bookmark__user1__name {
@@ -289,7 +293,6 @@
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
-    visibility: hidden;
   }
   to {
     opacity: 0;
@@ -299,5 +302,10 @@
 
 #splash-screen {
   animation: hideSplashScreen 0.6s ease-in-out forwards;
-  animation-delay: 0s;
+  animation-delay: 0.4s;
+}
+
+.nav__link:first-child > .fa-search,
+nav-bar__component__span > span {
+  color: #5682e8;
 }
