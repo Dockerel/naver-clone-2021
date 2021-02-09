@@ -4,5 +4,6 @@
 
 /* components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 @import "reset.css";
