@@ -211,7 +211,7 @@
   position: relative;
 }
 
-.fa-star {
+.bookmark__user1 > i {
   position: absolute;
   top: 0px;
 }
@@ -261,7 +261,7 @@
   font-size: 13px;
 }
 
-.fa-star {
+.bookmark__user1 > i {
   color: #5582e8;
   right: 8px;
   top: 10px;
@@ -293,6 +293,7 @@
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
+    visibility: hidden;
   }
   to {
     opacity: 0;
@@ -302,7 +303,7 @@
 
 #splash-screen {
   animation: hideSplashScreen 0.6s ease-in-out forwards;
-  animation-delay: 0.4s;
+  animation-delay: 0s;
 }
 
 .nav__link__search > i {

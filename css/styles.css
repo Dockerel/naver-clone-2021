@@ -5,5 +5,7 @@
 /* screens */
 @import "screens/search.css";
 @import "screens/community.css";
+@import "screens/champion.css";
 
 @import "reset.css";
+@import "variable.css";
